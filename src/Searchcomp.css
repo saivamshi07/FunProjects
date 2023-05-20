@@ -1,0 +1,12 @@
+.searchDiv .searchPlace{
+    background-color: #cdecff;
+    min-width: 211px;
+}
+
+.searchPlace{
+    padding: 0.8rem;
+}
+
+input::placeholder {
+    margin-left: 5px;
+}

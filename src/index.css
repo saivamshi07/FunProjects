@@ -1,0 +1,35 @@
+
+html,body{
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.innerDiv {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  background: linear-gradient(270deg,#071b52 0,teal);
+}
+
+#hearderDiv{
+  min-height: 20%;
+  border-radius: 7px;
+}
+
+#cardsDiv{
+  height: 80%;
+  border-radius: 7px;
+  overflow: auto;
+}
+
+.innerDiv:first-child {
+  margin-right: -4px;
+  margin-bottom: 0.25%;
+}
+
+body {
+  background: black;
+}
